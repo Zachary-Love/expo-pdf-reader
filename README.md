@@ -5,7 +5,7 @@ expo-pdf-reader
 [rn-pdf-reader-js](https://github.com/xcarpentier/rn-pdf-reader-js) that
 gracefully degrades in the web**
 
-Simply import `PDFReader` from `'@hashiprobr/expo-pdf-reader'` instead of
+Simply import `PDFReader` from `'@zachlove/expo-pdf-reader'` instead of
 `'rn-pdf-reader-js'`. In the web, the component gracefully degrades to an
 [object](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object) that
 uses the browser built-in PDF viewer if available. While much more limited, this
@@ -38,19 +38,19 @@ Install
 With npm:
 
 ```
-npm install @hashiprobr/expo-pdf-reader
+npm install @zachlove/expo-pdf-reader
 ```
 
 With yarn:
 
 ```
-yarn add @hashiprobr/expo-pdf-reader
+yarn add @zachlove/expo-pdf-reader
 ```
 
 With expo:
 
 ```
-expo install @hashiprobr/expo-pdf-reader
+expo install @zachlove/expo-pdf-reader
 ```
 
 If using Expo, add the module to `webpack.config.js`:
@@ -63,7 +63,7 @@ module.exports = async function (env, argv) {
         ...env,
         babel: {
             dangerouslyAddModulePathsToTranspile: [
-                '@hashiprobr/expo-pdf-reader',
+                '@zachlove/expo-pdf-reader',
             ],
         },
     }, argv);
@@ -84,7 +84,7 @@ Example
 ``` jsx
 import React from 'react';
 
-import PDFReader from '@hashiprobr/expo-pdf-reader';
+import PDFReader from '@zachlove/expo-pdf-reader';
 
 export default function MyComponent(props) {
     return (

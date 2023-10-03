@@ -1,7 +1,7 @@
 {
-  "name": "@hashiprobr/expo-pdf-reader",
-  "version": "1.0.8",
-  "description": "A wrapper around Xavier Carpentier's rn-pdf-reader-js that gracefully degrades in the web",
+  "name": "@zachlove/expo-pdf-reader",
+  "version": "1.0.11",
+  "description": "An updated wrapper around Xavier Carpentier's rn-pdf-reader-js that gracefully degrades in the web",
   "keywords": [
     "JavaScript",
     "React",
@@ -11,27 +11,30 @@
     "PDFReader",
     "rn-pdf-reader-js"
   ],
-  "homepage": "https://github.com/hashiprobr/expo-pdf-reader#readme",
+  "homepage": "https://github.com/Zachary-Love/expo-pdf-reader#readme",
   "bugs": {
-    "url": "https://github.com/hashiprobr/expo-pdf-reader/issues"
+    "url": "https://github.com/Zachary-Love/expo-pdf-reader/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hashiprobr/expo-pdf-reader.git"
+    "url": "git+https://github.com/Zachary-Love/expo-pdf-reader.git#main"
   },
   "license": "ISC",
-  "author": "Marcelo Hashimoto",
+  "author": "Zachary Love",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "expo": "45.0.0",
-    "expo-constants": "13.1.1",
-    "expo-file-system": "14.0.0",
-    "react": "17.0.2",
-    "react-native": "0.68.2",
-    "react-native-webview": "11.18.1",
-    "rn-pdf-reader-js": "4.1.1"
+    "expo": "^49.0.6",
+    "expo-constants": "15.0.0",
+    "expo-file-system": "15.6.0",
+    "react": "18.2.0",
+    "react-native": ">=0.69.0 <=0.71.8",
+    "react-native-webview": "13.6.0"
+  },
+  "dependencies": {
+    "@valli_/rn-pdf-reader-js": "^1.0.3",
+    "rn-pdf-reader-js": "^4.1.1"
   }
 }
